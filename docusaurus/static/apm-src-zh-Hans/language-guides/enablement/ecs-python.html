@@ -718,7 +718,7 @@ aws ec2 authorize-security-group-ingress \
     {
       <span class="hljs-string">"name"</span>: <span class="hljs-string">"ecs-cwagent"</span>,
       <span class="hljs-string">"image"</span>: <span class="hljs-string">"public.ecr.aws/cloudwatch-agent/cloudwatch-agent:latest"</span>,
-      <span class="hljs-string">"essential"</span>: true,
+      <span class="hljs-string">"essential"</span>: false,
       <span class="hljs-string">"secrets"</span>: [
         {
           <span class="hljs-string">"name"</span>: <span class="hljs-string">"CW_CONFIG_CONTENT"</span>,

@@ -846,7 +846,7 @@ aws ssm <span class="hljs-keyword">put</span>-parameter \
         {
             <span class="hljs-attr">"name"</span>: <span class="hljs-string">"ecs-cwagent"</span>,
             <span class="hljs-attr">"image"</span>: <span class="hljs-string">"public.ecr.aws/cloudwatch-agent/cloudwatch-agent:latest"</span>,
-            <span class="hljs-attr">"essential"</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-attr">"essential"</span>: <span class="hljs-literal">false</span>,
             <span class="hljs-attr">"secrets"</span>: [
                 {
                     <span class="hljs-attr">"name"</span>: <span class="hljs-string">"CW_CONFIG_CONTENT"</span>,

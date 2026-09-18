@@ -779,7 +779,7 @@ aws ec2 authorize-security-group-ingress \
     {
       "name": "ecs-cwagent",
       "image": "public.ecr.aws/cloudwatch-agent/cloudwatch-agent:latest",
-      "essential": true,
+      "essential": false,
       "secrets": [
         {
           "name": "CW_CONFIG_CONTENT",
